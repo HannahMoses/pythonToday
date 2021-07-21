@@ -1,0 +1,469 @@
+b19Feb2020MyGitPractice1
+vi to open a file
+:wq 
+ press ENTR to write and save
+i = insert; esc =go back to non-inserting mode
+THEN 
+:wq press ENTER
+
+9:13 PM 2/19/2020
+
+create a newfolder in local workspace (ie.,folder named "IdeaProjects")
+Create a new remote repo in github.com/HannahMoses
+          named 'homeworkSubmittedBatch32'
+Copy the following from green button on remote repo display
+https://github.com/HannahMoses/homeworkSubmittedBatch32.git
+
+
+h19SL@LAPTOP-I7UJGI2C MINGW64 ~
+$ cd IdeaProjects
+
+h19SL@LAPTOP-I7UJGI2C MINGW64 ~/IdeaProjects (master)
+$ dir
+Assignment-master  batch32-master  GITwit                    HelloWorld
+batch32            Development     HannahJavaBatch32Jan2020  homeworkSubmittedBatch32
+
+h19SL@LAPTOP-I7UJGI2C MINGW64 ~/IdeaProjects (master)
+$ cd homeworkSubmittedBatch32
+
+h19SL@LAPTOP-I7UJGI2C MINGW64 ~/IdeaProjects/homeworkSubmittedBatch32 (master)
+$ dir
+
+h19SL@LAPTOP-I7UJGI2C MINGW64 ~/IdeaProjects/homeworkSubmittedBatch32 (master)
+$ git init
+Initialized empty Git repository in C:/Users/h19SL/IdeaProjects/homeworkSubmittedBatch32/.git/
+
+h19SL@LAPTOP-I7UJGI2C MINGW64 ~/IdeaProjects/homeworkSubmittedBatch32 (master)
+$ git clone https://github.com/HannahMoses/homeworkSubmittedBatch32.git
+Cloning into 'homeworkSubmittedBatch32'...
+remote: Enumerating objects: 4, done.
+remote: Counting objects: 100% (4/4), done.
+remote: Compressing objects: 100% (4/4), done.
+remote: Total 4 (delta 0), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (4/4), 905 bytes | 2.00 KiB/s, done.
+
+h19SL@LAPTOP-I7UJGI2C MINGW64 ~/IdeaProjects/homeworkSubmittedBatch32 (master)
+$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        homeworkSubmittedBatch32/
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+h19SL@LAPTOP-I7UJGI2C MINGW64 ~/IdeaProjects/homeworkSubmittedBatch32 (master)
+$ dir
+homeworkSubmittedBatch32
+
+h19SL@LAPTOP-I7UJGI2C MINGW64 ~/IdeaProjects/homeworkSubmittedBatch32 (master)
+$ cd homeworkSubmittedBatch32
+
+h19SL@LAPTOP-I7UJGI2C MINGW64 ~/IdeaProjects/homeworkSubmittedBatch32/homeworkSubmittedBatch32 (master)
+$ dir
+README.md
+
+h19SL@LAPTOP-I7UJGI2C MINGW64 ~/IdeaProjects/homeworkSubmittedBatch32/homeworkSubmittedBatch32 (master)
+$
+====================.=========================
+
+CREATE A NEW JAVA CLASS'TEstDuration'IN A NEW FOLDER 'HW19feb2020'
+      IN REMOTE REPO
+
+dir
+HW19feb2020  README.md
+
+h19SL@LAPTOP-I7UJGI2C MINGW64 ~/IdeaProjects/homeworkSubmittedBatch32/homeworkSubmittedBatch32 (master)
+$ cd HW19feb2020
+
+h19SL@LAPTOP-I7UJGI2C MINGW64 ~/IdeaProjects/homeworkSubmittedBatch32/homeworkSubmittedBatch32/HW19feb2020 (master)
+$ dir
+src
+
+h19SL@LAPTOP-I7UJGI2C MINGW64 ~/IdeaProjects/homeworkSubmittedBatch32/homeworkSubmittedBatch32/HW19feb2020 (master)
+$ cd src
+
+h19SL@LAPTOP-I7UJGI2C MINGW64 ~/IdeaProjects/homeworkSubmittedBatch32/homeworkSubmittedBatch32/HW19feb2020/src (master)
+$ dir
+TestDuration.java
+
+h19SL@LAPTOP-I7UJGI2C MINGW64 ~/IdeaProjects/homeworkSubmittedBatch32/homeworkSubmittedBatch32/HW19feb2020/src (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   TestDuration.java
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   TestDuration.java
+
+
+h19SL@LAPTOP-I7UJGI2C MINGW64 ~/IdeaProjects/homeworkSubmittedBatch32/homeworkSubmittedBatch32/HW19feb2020/src (master)
+$ git add .
+
+h19SL@LAPTOP-I7UJGI2C MINGW64 ~/IdeaProjects/homeworkSubmittedBatch32/homeworkSubmittedBatch32/HW19feb2020/src (master)
+$ git commit -m "initial commit java class"
+[master b212261] initial commit java class
+ 1 file changed, 2 insertions(+)
+ create mode 100644 HW19feb2020/src/TestDuration.java
+
+h19SL@LAPTOP-I7UJGI2C MINGW64 ~/IdeaProjects/homeworkSubmittedBatch32/homeworkSubmittedBatch32/HW19feb2020/src (master)
+$ git status
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+
+h19SL@LAPTOP-I7UJGI2C MINGW64 ~/IdeaProjects/homeworkSubmittedBatch32/homeworkSubmittedBatch32/HW19feb2020/src (master)
+$
+================.=====================
+vi to open a file
+:wq 
+ press ENTR to write and save
+i = insert; esc =go back to non-inserting mode
+THEN 
+:wq press ENTER
+ dir
+TestDuration.java
+
+h19SL@LAPTOP-I7UJGI2C MINGW64 ~/IdeaProjects/homeworkSubmittedBatch32/homeworkSubmittedBatch32/HW19feb2020/src (master)
+$ vi TestDuration.java
+
+h19SL@LAPTOP-I7UJGI2C MINGW64 ~/IdeaProjects/homeworkSubmittedBatch32/homeworkSubmittedBatch32/HW19feb2020/src (master)
+$ vi TestDuration.java
+
+h19SL@LAPTOP-I7UJGI2C MINGW64 ~/IdeaProjects/homeworkSubmittedBatch32/homeworkSubmittedBatch32/HW19feb2020/src (master)
+$ vi TestDuration.java
+
+h19SL@LAPTOP-I7UJGI2C MINGW64 ~/IdeaProjects/homeworkSubmittedBatch32/homeworkSubmittedBatch32/HW19feb2020/src (master)
+$ vi TestDuration.java
+
+h19SL@LAPTOP-I7UJGI2C MINGW64 ~/IdeaProjects/homeworkSubmittedBatch32/homeworkSubmittedBatch32/HW19feb2020/src (master)
+$ vi TestDuration.java
+
+h19SL@LAPTOP-I7UJGI2C MINGW64 ~/IdeaProjects/homeworkSubmittedBatch32/homeworkSubmittedBatch32/HW19feb2020/src (master)
+$ vi TestDuration.java
+
+h19SL@LAPTOP-I7UJGI2C MINGW64 ~/IdeaProjects/homeworkSubmittedBatch32/homeworkSubmittedBatch32/HW19feb2020/src (master)
+$ vi TestDuration.java
+
+h19SL@LAPTOP-I7UJGI2C MINGW64 ~/IdeaProjects/homeworkSubmittedBatch32/homeworkSubmittedBatch32/HW19feb2020/src (master)
+$ vi TestDuration.java
+
+h19SL@LAPTOP-I7UJGI2C MINGW64 ~/IdeaProjects/homeworkSubmittedBatch32/homeworkSubmittedBatch32/HW19feb2020/src (master)
+$ vi TestDuration.java
+
+h19SL@LAPTOP-I7UJGI2C MINGW64 ~/IdeaProjects/homeworkSubmittedBatch32/homeworkSubmittedBatch32/HW19feb2020/src (master)
+$ vi TestDuration.java
+
+h19SL@LAPTOP-I7UJGI2C MINGW64 ~/IdeaProjects/homeworkSubmittedBatch32/homeworkSubmittedBatch32/HW19feb2020/src (master)
+$ dir
+:i  i  TestDuration.java
+
+h19SL@LAPTOP-I7UJGI2C MINGW64 ~/IdeaProjects/homeworkSubmittedBatch32/homeworkSubmittedBatch32/HW19feb2020/src (master)
+$ cd 1
+bash: cd: 1: No such file or directory
+
+h19SL@LAPTOP-I7UJGI2C MINGW64 ~/IdeaProjects/homeworkSubmittedBatch32/homeworkSubmittedBatch32/HW19feb2020/src (master)
+$ cd i
+bash: cd: i: Not a directory
+
+h19SL@LAPTOP-I7UJGI2C MINGW64 ~/IdeaProjects/homeworkSubmittedBatch32/homeworkSubmittedBatch32/HW19feb2020/src (master)
+$ cd :i
+bash: cd: :i: Not a directory
+
+h19SL@LAPTOP-I7UJGI2C MINGW64 ~/IdeaProjects/homeworkSubmittedBatch32/homeworkSubmittedBatch32/HW19feb2020/src (master)
+$ dir
+:i  i  TestDuration.java
+
+h19SL@LAPTOP-I7UJGI2C MINGW64 ~/
+
+
+
+============.==============
+{{ I had written :i and i as input in the file, instead of using them as
+   git bash commands }}
+TO PUSH THE MODIFIED LOCAL REPO TO REMOTE REPO :
+ cd ..
+
+h19SL@LAPTOP-I7UJGI2C MINGW64 ~/IdeaProjects/homeworkSubmittedBatch32/homeworkSubmittedBatch32/HW19feb2020 (master)
+$ dir
+src
+
+h19SL@LAPTOP-I7UJGI2C MINGW64 ~/IdeaProjects/homeworkSubmittedBatch32/homeworkSubmittedBatch32/HW19feb2020 (master)
+$ cd ..
+
+h19SL@LAPTOP-I7UJGI2C MINGW64 ~/IdeaProjects/homeworkSubmittedBatch32/homeworkSubmittedBatch32 (master)
+$ git status
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   HW19feb2020/src/TestDuration.java
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        HW19feb2020/src/i
+        "HW19feb2020/src/\357\200\272i"
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+h19SL@LAPTOP-I7UJGI2C MINGW64 ~/IdeaProjects/homeworkSubmittedBatch32/homeworkSubmittedBatch32 (master)
+$ git add .
+
+h19SL@LAPTOP-I7UJGI2C MINGW64 ~/IdeaProjects/homeworkSubmittedBatch32/homeworkSubmittedBatch32 (master)
+$ git commit -m "modified TestDuration.java class"
+[master 39fe335] modified TestDuration.java class
+ 3 files changed, 18 insertions(+)
+ create mode 100644 HW19feb2020/src/i
+ create mode 100644 "HW19feb2020/src/\357\200\272i"
+
+h19SL@LAPTOP-I7UJGI2C MINGW64 ~/IdeaProjects/homeworkSubmittedBatch32/homeworkSubmittedBatch32 (master)
+$ git push
+Enumerating objects: 11, done.
+Counting objects: 100% (11/11), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (10/10), 1.01 KiB | 172.00 KiB/s, done.
+Total 10 (delta 0), reused 0 (delta 0)
+To https://github.com/HannahMoses/homeworkSubmittedBatch32.git
+   ef65aed..39fe335  master -> master
+
+h19SL@LAPTOP-I7UJGI2C MINGW64 ~/IdeaProjects/homeworkSubmittedBatch32/homeworkSubmittedBatch32 (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+nothing to commit, working tree clean
+
+h19SL@LAPTOP-I7UJGI2C MINGW64 ~/IdeaProjects/homeworkSubmittedBatch32/homeworkSubmittedBatch32 (master)
+$
+===============.===============
+
+NOW EDIT TestDuration.Java FILE IN REMOTE REPO using edit button
+   and commit changes and then in git bash command prompt,use
+git pull to make these changes in the local repo as well.
+
+h19SL@LAPTOP-I7UJGI2C MINGW64 ~/IdeaProjects/homeworkSubmittedBatch32/homeworkSubmittedBatch32 (master)
+$ git pull
+remote: Enumerating objects: 9, done.
+remote: Counting objects: 100% (9/9), done.
+remote: Compressing objects: 100% (4/4), done.
+remote: Total 5 (delta 1), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (5/5), 880 bytes | 1024 bytes/s, done.
+From https://github.com/HannahMoses/homeworkSubmittedBatch32
+   f99a6be..09fc58b  master     -> origin/master
+Updating f99a6be..09fc58b
+Fast-forward
+ HW19feb2020/src/TestDuration.java | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+h19SL@LAPTOP-I7UJGI2C MINGW64 ~/IdeaProjects/homeworkSubmittedBatch32/homeworkSubmittedBatch32 (master)
+$
+..................=====.............
+EDITED TestDuration.java program in local IntelliJ workspace and
+   committed the changes to local repo using IntelliJ commit.
+then pushed the changes to remote repo 
+
+git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+nothing to commit, working tree clean
+
+h19SL@LAPTOP-I7UJGI2C MINGW64 ~/IdeaProjects/homeworkSubmittedBatch32/homeworkSubmittedBatch32 (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+nothing to commit, working tree clean
+
+h19SL@LAPTOP-I7UJGI2C MINGW64 ~/IdeaProjects/homeworkSubmittedBatch32/homeworkSubmittedBatch32 (master)
+$ git pull
+remote: Enumerating objects: 9, done.
+remote: Counting objects: 100% (9/9), done.
+remote: Compressing objects: 100% (4/4), done.
+remote: Total 5 (delta 1), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (5/5), 900 bytes | 2.00 KiB/s, done.
+From https://github.com/HannahMoses/homeworkSubmittedBatch32
+   fa57e7f..f99a6be  master     -> origin/master
+Updating fa57e7f..f99a6be
+Fast-forward
+ HW19feb2020/src/TestDuration.java | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+h19SL@LAPTOP-I7UJGI2C MINGW64 ~/IdeaProjects/homeworkSubmittedBatch32/homeworkSubmittedBatch32 (master)
+$ git pull
+remote: Enumerating objects: 9, done.
+remote: Counting objects: 100% (9/9), done.
+remote: Compressing objects: 100% (4/4), done.
+remote: Total 5 (delta 1), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (5/5), 880 bytes | 1024 bytes/s, done.
+From https://github.com/HannahMoses/homeworkSubmittedBatch32
+   f99a6be..09fc58b  master     -> origin/master
+Updating f99a6be..09fc58b
+Fast-forward
+ HW19feb2020/src/TestDuration.java | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+h19SL@LAPTOP-I7UJGI2C MINGW64 ~/IdeaProjects/homeworkSubmittedBatch32/homeworkSubmittedBatch32 (master)
+$ git status
+On branch master
+Your branch is ahead of 'origin/master' by 4 commits.
+  (use "git push" to publish your local commits)
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        .idea/
+        HW19feb2020/HW19feb2020.iml
+        production/
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+h19SL@LAPTOP-I7UJGI2C MINGW64 ~/IdeaProjects/homeworkSubmittedBatch32/homeworkSubmittedBatch32 (master)
+$ git add .
+
+h19SL@LAPTOP-I7UJGI2C MINGW64 ~/IdeaProjects/homeworkSubmittedBatch32/homeworkSubmittedBatch32 (master)
+$ git status
+On branch master
+Your branch is ahead of 'origin/master' by 4 commits.
+  (use "git push" to publish your local commits)
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   .idea/.gitignore
+        new file:   .idea/homeworkSubmittedBatch32.iml
+        new file:   .idea/misc.xml
+        new file:   .idea/modules.xml
+        new file:   .idea/vcs.xml
+        new file:   HW19feb2020/HW19feb2020.iml
+        new file:   production/HW19feb2020/i
+        new file:   "production/HW19feb2020/\357\200\272i"
+
+
+h19SL@LAPTOP-I7UJGI2C MINGW64 ~/IdeaProjects/homeworkSubmittedBatch32/homeworkSubmittedBatch32 (master)
+$ git commit -m "commited .java file to local repo"
+[master 9956fb3] commited .java file to local repo
+ 8 files changed, 47 insertions(+)
+ create mode 100644 .idea/.gitignore
+ create mode 100644 .idea/homeworkSubmittedBatch32.iml
+ create mode 100644 .idea/misc.xml
+ create mode 100644 .idea/modules.xml
+ create mode 100644 .idea/vcs.xml
+ create mode 100644 HW19feb2020/HW19feb2020.iml
+ create mode 100644 production/HW19feb2020/i
+ create mode 100644 "production/HW19feb2020/\357\200\272i"
+
+h19SL@LAPTOP-I7UJGI2C MINGW64 ~/IdeaProjects/homeworkSubmittedBatch32/homeworkSubmittedBatch32 (master)
+$ git status
+On branch master
+Your branch is ahead of 'origin/master' by 5 commits.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+
+h19SL@LAPTOP-I7UJGI2C MINGW64 ~/IdeaProjects/homeworkSubmittedBatch32/homeworkSubmittedBatch32 (master)
+$ git push
+Enumerating objects: 36, done.
+Counting objects: 100% (36/36), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (26/26), done.
+Writing objects: 100% (32/32), 3.56 KiB | 182.00 KiB/s, done.
+Total 32 (delta 7), reused 0 (delta 0)
+remote: Resolving deltas: 100% (7/7), done.
+To https://github.com/HannahMoses/homeworkSubmittedBatch32.git
+   09fc58b..9956fb3  master -> master
+
+h19SL@LAPTOP-I7UJGI2C MINGW64 ~/IdeaProjects/homeworkSubmittedBatch32/homeworkSubmittedBatch32 (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+nothing to commit, working tree clean
+
+h19SL@LAPTOP-I7UJGI2C MINGW64 ~/IdeaProjects/homeworkSubmittedBatch32/homeworkSubmittedBatch32 (master)
+$
+................=..........11:13 PM 2/19/2020........
+CLONED REMOTE REPOS batch32 AND Assignments FROM github.com/Jayramrout
+h19SL@LAPTOP-I7UJGI2C MINGW64 ~/IdeaProjects (master)
+$ ce 34Java2020
+bash: ce: command not found
+
+h19SL@LAPTOP-I7UJGI2C MINGW64 ~/IdeaProjects (master)
+$ cd 34Java2020
+
+h19SL@LAPTOP-I7UJGI2C MINGW64 ~/IdeaProjects/34Java2020 (master)
+$ dir
+README.md
+
+h19SL@LAPTOP-I7UJGI2C MINGW64 ~/IdeaProjects/34Java2020 (master)
+$ git clone https://github.com/jayramrout/batch32.git
+Cloning into 'batch32'...
+remote: Enumerating objects: 151, done.
+remote: Counting objects: 100% (151/151), done.
+remote: Compressing objects: 100% (113/113), done.
+remote: Total 151 (delta 58), reused 117 (delta 31), pack-reused 0
+Receiving objects: 100% (151/151), 29.16 KiB | 1.21 MiB/s, done.
+Resolving deltas: 100% (58/58), done.
+
+h19SL@LAPTOP-I7UJGI2C MINGW64 ~/IdeaProjects/34Java2020 (master)
+$ dir
+batch32  README.md
+
+h19SL@LAPTOP-I7UJGI2C MINGW64 ~/IdeaProjects/34Java2020 (master)
+$ git clone https://github.com/jayramrout/Assignment.git
+Cloning into 'Assignment'...
+remote: Enumerating objects: 157, done.
+remote: Counting objects: 100% (157/157), done.
+remote: Compressing objects: 100% (113/113), done.
+Receiving objremote: Total 249 (delta 49), reused 134 (delta 28), pack-reused 92
+
+Receiving objects: 100% (249/249), 315.42 KiB | 3.29 MiB/s, done.
+Resolving deltas: 100% (66/66), done.
+
+h19SL@LAPTOP-I7UJGI2C MINGW64 ~/IdeaProjects/34Java2020 (master)
+$ dir
+Assignment  batch32  README.md
+
+h19SL@LAPTOP-I7UJGI2C MINGW64 ~/IdeaProjects/34Java2020 (master)
+$ cd ..
+
+h19SL@LAPTOP-I7UJGI2C MINGW64 ~/IdeaProjects (master)
+$ dir
+34Java2020  HannahJavaBatch32Jan2020  homeworkSubmittedBatch32
+GITwit      HelloWorld
+
+h19SL@LAPTOP-I7UJGI2C MINGW64 ~/IdeaProjects (master)
+$ cd homeworkSubmittedBatch32
+
+h19SL@LAPTOP-I7UJGI2C MINGW64 ~/IdeaProjects/homeworkSubmittedBatch32 (master)
+$ dir
+homeworkSubmittedBatch32
+
+h19SL@LAPTOP-I7UJGI2C MINGW64 ~/IdeaProjects/homeworkSubmittedBatch32 (master)
+$ git clone https://github.com/jayramrout/Assignment.git
+Cloning into 'Assignment'...
+remote: Enumerating objects: 157, done.
+remote: Counting objects: 100% (157/157), done.
+remote: Compressing objects: 100% (113/113), done.
+Receivremote: Total 249 (delta 49), reused 134 (delta 28), pack-reused 92ing objeReceivin
+Receiving objects: 100% (249/249), 315.42 KiB | 2.82 MiB/s, done.
+Resolving deltas: 100% (66/66), done.
+
+h19SL@LAPTOP-I7UJGI2C MINGW64 ~/IdeaProjects/homeworkSubmittedBatch32 (master)
+$ dir
+Assignment  homeworkSubmittedBatch32
+
+h19SL@LAPTOP-I7UJGI2C MINGW64 ~/IdeaProjects/homeworkSubmittedBatch32 (master)
+$
+................=.................
