@@ -1,4 +1,5 @@
-b19Feb2020MyGitPractice1
+ g2021july20MyGitPractice1.txt  saved in another location as b19Feb2020MyGitPractice1
+
 vi to open a file
 :wq 
  press ENTR to write and save
